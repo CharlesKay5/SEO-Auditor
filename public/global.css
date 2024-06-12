@@ -1,0 +1,116 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    background: #ffffff;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 30px;
+    margin: 30px auto;
+}
+.card-h1 {
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #163450;
+    display: inline-block;
+}
+.card-h2 {
+    margin: 0 0 5px 0;
+    font-weight: 900;
+    font-size: 16px;
+    color: #00b09b;
+    text-transform: uppercase;
+}
+.tg {
+    font-size: 18px;
+    color: #163450;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tg td {
+    border-width: 1px;
+    overflow: hidden;
+    padding: 3px 5px;
+    word-break: normal;
+}
+.tg th{
+    border-width:1px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:5px 5px;
+    word-break:normal;
+}
+.tg .red{
+    color: #fc4e55;
+    text-align: right;
+}
+.tg .green{
+    color: #57d69d;
+    text-align: right;
+}
+.tg .tg-text {
+    text-align: left;
+    vertical-align: top;
+}
+.tg2  {
+    font-size: 16px;
+    color: #163450;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg2 th{
+    border-width:1px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:5px 5px;
+    word-break:normal;
+}
+.tg2 .red{
+    color: #fc4e55;
+    text-align: right;
+}
+.tg2 .green{
+    color: #57d69d;
+    text-align: right;
+}
+.tg2 .tg-text{
+    text-align:left;
+    vertical-align:top;
+    padding-right: 15px;
+}
+.info {
+    background: #e2f1ff;
+    border-radius: 3px;
+    margin: 17px 0 17px 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.infocont {
+    padding: 5px 10px 0 5px;
+}
+#infotitle {
+    color: #003b71;
+    font-weight: bold;
+}
+#infomain {
+    color: #003b71;
+    opacity: 0.9;
+    margin-top: 5px;
+}
