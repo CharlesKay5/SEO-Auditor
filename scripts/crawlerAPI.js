@@ -72,7 +72,7 @@ async function puppeteerCrawl(baseURL, data, callback) {
     await page.goto(baseURL);
 
     await page.screenshot({
-        path: "../public/images/screencapture.png"
+        path: "./public/images/screencapture.png"
     })
 
     await page.setRequestInterception(true);
